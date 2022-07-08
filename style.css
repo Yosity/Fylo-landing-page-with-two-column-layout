@@ -4,11 +4,10 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-.header-nav,header,main,footer {
-    padding: 1rem 1rem;
-}
+
 h1,h2,ul,input,button {
     font-family: 'Raleway', sans-serif;
+   
 }
 ul a {
     text-decoration: none;
@@ -17,7 +16,8 @@ ul a {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
+    padding: 2rem 1rem;
 }
 .header-nav img {
     width: 8rem;
@@ -36,7 +36,6 @@ ul a {
 }
 
 header {
-    width: 100%;
     display: grid;
     grid-gap: 3rem;
     margin-bottom: 4rem;
@@ -85,6 +84,47 @@ input::placeholder {
 main {
     background-image: url("images/bg-curve-mobile.svg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color: aqua;
+    background-size: 100%;
+  
+    padding: 6rem 1.2rem 3rem 1.2rem;
+    text-align: left;
+
+    display: grid;
+    grid-gap: 5rem;
+ 
+}
+main img {
+    width: 100%;
+    margin: auto;
+}
+main h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+main .paragraph {
+    color: hsl(238, 22%, 44%);
+}
+.main-nav-container{
+    text-align: center;
+}
+.main-nav {
+    text-decoration: none;
+    padding: 0.3rem 0;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid  hsl(170, 45%, 43%);
+
+}
+main .card {
+    background-color: rgb(219, 219, 219);
+    padding: 1rem 1.5rem;
+  
+}
+.card .comment::before {
+    display: block;
+    width: 25px;
+    height: 30px;
+    content: "";
+    background-image: url("images/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
