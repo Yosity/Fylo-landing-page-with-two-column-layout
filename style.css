@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-.header-nav,header,.section-1,.section-2 {
+.header-nav,.section-1,.section-2 {
     min-width: 400px;
 }
 h1,h2,ul,input,button {
@@ -47,6 +47,7 @@ ul a {
 }
 
 header {
+    min-width: 480px;
     display: grid;
     grid-gap: 3rem;
     margin-bottom: 4rem;
